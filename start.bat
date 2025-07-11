@@ -1,3 +1,4 @@
 call venv\Scripts\activate.bat
-python run_midas.py input.jpg --model hybrid
+set /p MODEL_TYPE=Enter model type (small, large, hybrid): 
+python run_midas.py input.jpg --model %MODEL_TYPE%
 pause
