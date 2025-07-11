@@ -1,4 +1,4 @@
-Streamlined depth pass generator using [MiDaS](https://github.com/isl-org/MiDaS)
+Streamlined depth pass generator using [timm](https://huggingface.co/timm) and [MiDaS](https://github.com/isl-org/MiDaS)
 
 Installation :
 
