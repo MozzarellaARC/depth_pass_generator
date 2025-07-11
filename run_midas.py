@@ -154,8 +154,7 @@ Examples:
     
     # Set default output path
     if not args.output:
-        input_path = Path(args.input_image)
-        args.output = f"depth_{input_path.stem}.png"
+        args.output = f"depth_pass_output.png"
     
     # Create output directory if needed
     output_dir = Path(args.output).parent
